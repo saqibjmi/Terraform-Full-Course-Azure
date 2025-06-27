@@ -8,6 +8,11 @@ This project demonstrates a modern three-tier architecture:
 
 ## Architecture Overview
 
+
+![Azure-3tier](https://github.com/user-attachments/assets/e05aae9d-cd05-4610-a2d3-ab82341bff77)
+
+
+
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │     Frontend    │     │     Backend     │     │    Database     │
