@@ -49,6 +49,7 @@ resource "azurerm_storage_account" "example" {
 
   tags = {
     environment = local.common_tags.environment
+    stage  = local.common_tags.stage
   }
 }
 
