@@ -9,6 +9,11 @@ locals {
       priority               = 110
       destination_port_range = "443"
       description           = "Allow HTTPS"
+    },
+    "allow_all" = {
+      priority                    = 120
+      destination_port_range      = "*"
+      description           = "Allow all connection"
     }
   }
 }
